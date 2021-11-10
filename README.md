@@ -47,6 +47,12 @@
    tar -xvf phantomjs-2.1.1-linux-x86_64.tar.bz2
    ```
 
+   如果报错，可能缺少bzip2包
+
+   ```
+   yum -y install bzip2
+   ```
+
 4. 添加软链接，可以方便的在任意目录下执行命令：
 
    ```
