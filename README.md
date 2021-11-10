@@ -70,7 +70,7 @@ phantomjs echarts-convert.js -options [options] -outfile [savePath] -width [widt
 
 ​		options是要生成echart的数据参数，savePath图片保存路径，width图片宽，height图片高
 
-​	进入当前当前项目所在的目录执行以下命令：
+​	进入当前项目所在的目录执行以下命令：
 
 ```
 options=$(cat test.txt)
