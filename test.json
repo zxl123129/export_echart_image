@@ -1,0 +1,40 @@
+{
+  "title": {
+    "left": "center",
+    "text": "网络质量(dBm)"
+  },
+  "xAxis": {
+    "type": "category",
+    "data": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "axisLine": { "onZero": false },
+    "boundaryGap": true
+  },
+  "yAxis": {
+    "type": "value",
+    "splitNumber": 10,
+    "max": 0,
+    "min": -100,
+    "axisLabel": {
+      "show": true
+    },
+    "scale": true,
+    "axisLine": { "show": true }
+  },
+  "series": [
+    {
+      "type": "line",
+      "data": [-60, -50, -40, -30, -20, -70, -56, -61, null, -90, -100, -40, -20, -10, -55],
+      "markLine": {
+        "data": [
+          {
+            "yAxis": -90,
+            "color": "red"
+          }
+        ],
+        "lineStyle": {
+          "color": "red"
+        }
+      }
+    }
+  ]
+}
