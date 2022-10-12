@@ -106,7 +106,7 @@
             }
 
             // we render the image, so we need set background to white.
-            $(document.body).css('backgroundColor', 'transparent');
+            $(document.body).css('backgroundColor', 'white');
             var container = $("<div>").appendTo(document.body);
             container.attr('id', 'container');
             container.css({
